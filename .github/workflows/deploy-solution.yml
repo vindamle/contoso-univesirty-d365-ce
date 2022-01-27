@@ -18,7 +18,7 @@ jobs:
         with:
           workflow: pack-solution.yml
           name: packed-solution
-      - uses: microsoft/pwoerplatform-actions/import-solution@v0
+      - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
           environment-url: d365ce-training-dev
           user-name: ${{ secrets.USERNAME }}
